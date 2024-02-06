@@ -1,0 +1,58 @@
+.flex {
+    display: flex;
+}
+
+.project_intro {
+    flex-direction: row;
+}
+
+.subtitle {
+    text-align:center;
+    padding-bottom: 5vh;
+}
+
+.demigod_daycare__navbar {
+    background-image: var(--gradient),
+        url('/images/demigod_banner_01.png');
+}
+
+.gotta_gobot__navbar {
+    background-image: var(--gradient),
+        url('/images/banner_01.png');
+}
+
+main {
+    flex-direction: column;    
+    h1, h2 {
+        padding: 10vh 0 1vh 0;
+        text-align: center;
+    }
+
+    figure {
+        padding: 10vw 0;
+    }
+
+    img {
+        width: 10vw;
+    }
+
+    iframe {
+        width: 40vw;
+        margin: 0 12vw;
+    }
+
+    section {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    span {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    span div {
+        padding: 5%;
+        max-width: 33vw;
+    }
+}

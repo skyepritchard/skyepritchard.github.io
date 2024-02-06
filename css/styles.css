@@ -1,0 +1,151 @@
+
+main {
+    background: var(--black);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5%;
+    align-items: space-around;    
+}
+
+.services__card {
+    margin: 1rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 4px;
+    background-size: cover;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-decoration: none;
+    
+}
+
+.services__card h4,
+.services__card p {
+    margin-left: 1rem;
+}
+
+#demigod_daycare {
+    background-image: var(--gradient),
+        url('/images/demigod_icon_01.png');
+}
+
+#lil_robo {
+    background-image: var(--gradient),
+        url('/images/robo_icon_01.png');
+}
+
+#bird_breakfast {
+    background-image: var(--gradient),
+        url('/images/bird_icon_01.png');
+}
+
+#the_tower {
+    background-image: var(--gradient),
+        url('/images/tower_icon_01.png');
+}
+
+#critter_city {
+    background-image: var(--gradient),
+        url('/images/critters_icon_01.png');
+}
+
+#falling_star {
+    background-image: var(--gradient),
+        url('/images/fallingstar_icon_01.png');
+}
+
+#animation_reel {
+    background-image: var(--gradient),
+        url('/images/reel_icon_01.png');
+}
+
+.services__card button {
+    color: var(--white);
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #f77062;
+    position: absolute;
+    top: 440px;
+    left: 30px;
+}
+
+.services__card:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.project {
+    /* .project is just the top section of the page */
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.project__overview--title {
+    color: var(--white);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.project__overview--title p {
+    margin: 16px;
+    color: #e4d3b2;
+    outline-style: double;
+}
+
+.project__overview--stats {
+    color: var(--white);
+    padding-bottom: 1rem;
+}
+
+.project__content {
+    background: #e4d3b2;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    list-style-position: inside;
+    /*height: 100px; why did i specify height??*/
+}
+
+.project__content--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project__descriptions {
+    max-width: 900px;
+    outline-color: #f77062;
+    outline-style: solid;
+    max-width: 600px;
+}
+
+.project__images {
+    outline-color: #f77062;
+    outline-style: solid;
+    max-width: 600px;
+}
+
+.resume__container {
+    background: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 375px;
+}
+
+footer{
+    background-color: var(--black);
+    color: var(--white);
+    position: relative;
+    margin-bottom: 0px;
+    margin-top:auto;
+}
