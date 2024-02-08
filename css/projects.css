@@ -6,6 +6,19 @@
     flex-direction: row;
 }
 
+.art-contributions{
+    justify-content: center;
+}
+
+.art_contributions{
+    margin: 2rem;
+}
+
+.art_contributions_text{
+    max-width: 50%;
+    margin: 2rem;
+}
+
 .subtitle {
     text-align:center;
     padding-bottom: 5vh;
@@ -29,7 +42,7 @@ main {
     }
 
     figure {
-        padding: 10vw 0;
+        padding-top: 10vw;
     }
 
     img {
