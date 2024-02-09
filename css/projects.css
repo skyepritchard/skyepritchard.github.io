@@ -55,6 +55,8 @@
         url('/images/banner_01.png');
 }
 
+/*bingbong*/
+
 .operation_breadcrumbs__navbar {
     background-image: var(--gradient),
         url('/images/obimages/tree.png');
