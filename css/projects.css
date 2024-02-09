@@ -6,6 +6,27 @@
     flex-direction: row;
 }
 
+.project_intro_center{
+    align-items: center;
+}
+
+.project_buttons{
+    margin: 2rem;
+    text-align: center;
+    margin: 0px 2rem;
+}
+
+.project_buttons p{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
+
+.disc_button{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
 .art-contributions{
     justify-content: center;
 }
@@ -34,6 +55,11 @@
         url('/images/banner_01.png');
 }
 
+.operation_breadcrumbs__navbar {
+    background-image: var(--gradient),
+        url('/images/obimages/tree.png');
+}
+
 main {
     flex-direction: column;    
     h1, h2 {
@@ -49,9 +75,15 @@ main {
         width: 10vw;
     }
 
+    .kitchen {
+        width: 50vw;
+    }
+
     iframe {
         width: 40vw;
         margin: 0 12vw;
+        display: flex;
+        justify-content: center;
     }
 
     section {
