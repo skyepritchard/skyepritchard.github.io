@@ -42,6 +42,11 @@ main {
         url('/images/bird_icon_01.png');
 }
 
+#wpi_events {
+    background-image: var(--gradient),
+        url('/images/joyart_photo.jpg');
+}
+
 #the_tower {
     background-image: var(--gradient),
         url('/images/tower_icon_01.png');
