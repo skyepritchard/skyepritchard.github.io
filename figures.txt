@@ -1,0 +1,3 @@
+<figure style="margin-right:7.5vw;">
+    <img src="/images/placeholder.png">
+</figure>
