@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/gallery.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -58,151 +58,68 @@
 
     <!-- Project Section -->
     <main class="flex">
-        <div class ="project_intro flex">
-            <section class="flex project_intro_center">
-                <h1>Operation Breadcrumbs</h1>
-                <p class="subtitle">In-Progress 2D Management Game</p>
-
-                <img class = "kitchen" src="images\obimages\kitchen.png">
-
-                <span class="flex">
-                    <div>
-                        <p>Platform: PC (Mac + Windows)</p>
-                        <p>Role: Producer and Lead Artist</p>
-                        <p>Team Size: 6</p>
-                        <p>Release: Demo coming Spring 2024</p>
-                    </div>
-                    <div>
-                        <p>
-                            Play as Robin, a bird returning to their charming childhood town to take over their grandfather's BnB. Make breakfasts, meet migrating birds passing through, and get to know the community you left behind.
-                        </p>
-                    </div>
-                </span>
-            </section>
+      <div class = "flex project-title">
+        <h1>Operation Breadcrumbs</h1>
+        <p class="subtitle">In-Progress 2D Management Game</p>
+      </div>
+      <div class = "flex project-intro">
+        <div class = "project-intro-image">
+          <img src="images\obimages\kitchen.png">
         </div>
-        <div class ="project_buttons flex">
-            <section class = flex>
-                <h2>Contributions</h2>
-                <span class="flex disc_buttons">
-                    <div class="flex disc_button">
-                        <button class="button-50" role="button">Art Contributions</button>
-                    </div>
-                    <div class="flex disc_button">
-                        <button class="button-50" role="button">Production Contributions</button>
-                    </div>
-                </span>
-            </section>
+        <div class = "flex project-intro-buttons">
+          <div class="disc_button">
+              <button class="button-50" role="button">Art Contributions</button>
+          </div>
+          <div class="disc_button">
+              <button class="button-50" role="button">Production Contributions</button>
+          </div>
         </div>
-        <div class = "art_contributions flex">
-            <section class = "flex art_contributions_text">
-                <H2>Art Contributions</H2>
-                <ul>
-                    <li>Lead the creation of an art style taking inspiration from influential American artists.</li>
-                    <li>Created and managed the art pipeline.</li>
-                    <li>Produced 2D character sprites to be rigged and animated by the team's animators.</li>
-                    <li>Oversaw quality control of all artwork.</li>
-                    <li>Assigned and prioritized Art tasks based on the needs and abilities of the team.</li>
-                </ul>
-            </section>
-            <div class = "lightbox">
-                <div class = "gallery_thumbs">
-                    <div class="row">
-                        <div class="column">
-                          <img src="images\obimages\ob_birdlineup1.png" onclick="openModal();currentSlide(1)" class="hover-shadow thumb">
-                          </div>
-                        <div class="column">
-                            <img src="images\obimages\ob_regparts1.png" onclick="openModal();currentSlide(2)" class="hover-shadow thumb">
-                        </div>
-                    </div>
-                    <div class="row">
-                          <div class="column">
-                            <img src="images\obimages\ob_robinportrait.png" onclick="openModal();currentSlide(3)" class="hover-shadow thumb">
-                          </div>
-                          <div class="column">
-                            <img src="images\obimages\ob_credits.png" onclick="openModal();currentSlide(4)" class="hover-shadow thumb">
-                          </div>
-                    </div>
-                    <div class="row">
-                        <div class="column">
-                          <img src="images\obimages\ob_roomext1.png" onclick="openModal();currentSlide(5)" class="hover-shadow thumb">
-                        </div>
-                        <div class="column">
-                          <img src="images\obimages\ob_roomint1.png" onclick="openModal();currentSlide(6)" class="hover-shadow thumb">
-                        </div>
-                    </div>
-                </div>
-                
-                <div id="myModal" class="modal">
-                    <span class="close cursor" onclick="closeModal()">&times;</span>
-                    <div class="modal-content">
-                  
-                      <div class="mySlides">
-                        <div class="numbertext">1 / 6</div>
-                        <img src="images\obimages\ob_birdlineup1.png" style="width:100%">
-                      </div>
-                  
-                      <div class="mySlides">
-                        <div class="numbertext">2 / 6</div>
-                        <img src="images\obimages\ob_regparts1.png" style="width:100%">
-                      </div>
-                  
-                      <div class="mySlides">
-                        <div class="numbertext">3 / 6</div>
-                        <img src="images\obimages\ob_robinportrait.png" style="width:100%">
-                      </div>
-                  
-                      <div class="mySlides">
-                        <div class="numbertext">4 / 6</div>
-                        <img src="images\obimages\ob_credits.png" style="width:100%">
-                      </div>
-
-                      <div class="mySlides">
-                        <div class="numbertext">5 / 6</div>
-                        <img src="images\obimages\ob_roomext1.png" style="width:100%">
-                      </div>
-
-                      <div class="mySlides">
-                        <div class="numbertext">6 / 6</div>
-                        <img src="images\obimages\ob_roomint1.png" style="width:100%">
-                      </div>
-                  
-                      <!-- Next/previous controls -->
-                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                  
-                      <!-- Caption text -->
-                      <div class="caption-container">
-                        <p id="caption"></p>
-                      </div>
-                  
-                      <!-- Thumbnail image controls -->
-                      <div class="lightbox_nav">
-                        <div class="thumb_nav">
-                            <img class="demo" src="images\obimages\ob_birdlineup1.png" onclick="currentSlide(1)" alt="A lineup of some of the bird sprites I made for the game.">
-                          </div>
-                          <div class="thumb_nav">
-                            <img class="demo" src="images\obimages\ob_regparts1.png" onclick="currentSlide(2)" alt="The parts of a bird sprite.">
-                          </div>
-                          <div class="thumb_nav">
-                            <img class="demo" src="images\obimages\ob_robinportrait.png" onclick="currentSlide(3)" alt="A portrait for the main character as part of the visual novel-style dialogue.">
-                          </div>
-                          <div class="thumb_nav">
-                            <img class="demo" src="images\obimages\ob_credits.png" onclick="currentSlide(4)" alt="A credit window. Fonts aquired externally.">
-                          </div>
-                          <div class="thumb_nav">
-                            <img class="demo" src="images\obimages\ob_roomext1.png" onclick="currentSlide(5)" alt="The exterior of a nest room in the bed and breakfast.">
-                          </div>
-                          <div class="tumb_nav">
-                            <img class="demo" src="images\obimages\ob_roomint1.png" onclick="currentSlide(6)" alt="The interior of a nest room in the bed and breakfast.">
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
+        <div class = "project-intro-desc">
+          <p>
+            Play as Robin, a bird returning to their charming childhood town to take over their grandfather's BnB. Make breakfasts, meet migrating birds passing through, and get to know the community you left behind.
+          </p>
         </div>
+        <div class = "project-intro-specs">
+          <p><b>Platform:</b> PC (Mac + Windows)</p>
+          <p><b>Role:</b> Producer and Lead Artist</p>
+          <p><b>Team Size:</b> 6</p>
+          <p><b>Release:</b> Demo coming Spring 2024</p>
+        </div>
+      </div>
+      <div class = "flex project-art" id = "ob-art">
+        <div class = "project-art-header full-block">
+          <H2>Art Contributions</H2>
+        </div>
+        <div class = "half-block gallery-text">
+            <ul>
+                <li>Lead the creation of an art style taking inspiration from influential American artists.</li>
+                <li>Created and managed the art pipeline.</li>
+                <li>Produced 2D character sprites to be rigged and animated by the team's animators.</li>
+                <li>Oversaw quality control of all artwork.</li>
+                <li>Assigned and prioritized Art tasks based on the needs and abilities of the team.</li>
+            </ul>
+        </div>
+        <div class = "half-block">
+          <img src="images\obimages\ob_robinportrait.png">
+        </div>
+        <div class = "full-block">
+          <img src="images\obimages\ob_birdlineup1.png">
+        </div>
+        <div class = "half-block">
+          <img src="images\obimages\ob_regparts1.png">
+        </div>
+        <div class = "half-block">
+          <img src="">
+        </div>
+        <div class = "half-block">
+          <img src="images\obimages\ob_roomext1.png">
+        </div>
+        <div class = "half-block">
+          <img src="images\obimages\ob_roomint1.png">
+        </div>
+      </div>
+      <div class = "flex project-production" id = "ob-production"></div>
     </main>
-
-    <!-- Gallery -->
 
     <!-- Footer Section -->
     <footer>
