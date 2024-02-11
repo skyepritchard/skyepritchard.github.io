@@ -103,3 +103,123 @@ main {
         max-width: 33vw;
     }
 }
+
+
+/* heres my new attempt at reactive website*/
+
+/*TITLE SECTION*/
+
+.project-title {
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-intro {
+    flex-wrap: wrap;
+    padding: 0px 10%;
+}
+
+.project-intro-image {
+    /*background-image: url('/images/obimages/kitchen.png');*/
+    width: 50%;
+}
+
+.project-intro-buttons{
+    padding: 2rem;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-intro-desc{
+    width: 50%;
+    padding: 3rem 2rem;
+}
+
+.project-intro-specs{
+    width: 50%;
+    padding: 3rem 2rem;
+}
+
+@media screen and (max-width: 760px) {
+    .project-intro-image {
+        width: 100%;
+       }
+       
+       .project-intro-buttons{
+           width: 100%;
+       }
+       
+       .project-intro-desc{
+           width: 100%;
+           padding: 5px 0px;
+       }
+       
+       .project-intro-specs{
+           width: 100%;
+           padding: 1.5rem 0px;
+       }
+       
+       .disc_button {
+        padding-top: 1rem;
+        padding-bottom: 0px;
+       }
+}
+
+.project-intro-image img{
+    width: 100%;
+}
+
+.project-intro p{
+    font-family: 'Lato', 'Josefin Sans', sans-serif;
+    font-size: 11pt;
+    font-weight: 300;
+    text-align: center;
+}
+
+project-intro-specs p{
+    text-align: right;
+}
+
+/*ART SECTION*/
+
+.project-art{
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
+.half-block{
+    width: 50%;
+    padding: 1rem;
+}
+
+.full-block{
+    width: 100%;
+    padding: 1rem;
+}
+
+.gallery-text li{
+    font-family: 'Lato', 'Josefin Sans', sans-serif;
+    font-size: 11pt;
+    font-weight: 300;
+    text-align: left;
+}
+
+.project-art-gallery-text{
+    padding: 2rem;
+}
+
+.project-art-header h2{
+    padding: 2rem;
+}
+
+.project-art img {
+    width: 100%;
+}
+
+.project-art img:hover{
+    transform: scale(1.03);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
