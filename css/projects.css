@@ -24,7 +24,7 @@
 
 .disc_button{
     padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .art-contributions{
@@ -134,59 +134,33 @@ main {
 
 .project-intro-desc{
     width: 50%;
-    padding: 3rem 2rem;
+    padding: 2rem 1rem;
 }
 
 .project-intro-specs{
     width: 50%;
-    padding: 3rem 2rem;
+    padding: 2rem 4rem;
 }
 
-@media screen and (max-width: 760px) {
-    .project-intro-image {
-        width: 100%;
-       }
-       
-       .project-intro-buttons{
-           width: 100%;
-       }
-       
-       .project-intro-desc{
-           width: 100%;
-           padding: 5px 0px;
-       }
-       
-       .project-intro-specs{
-           width: 100%;
-           padding: 1.5rem 0px;
-       }
-       
-       .disc_button {
-        padding-top: 1rem;
-        padding-bottom: 0px;
-       }
+.project-intro-specs p{
+    text-align: center;
 }
 
 .project-intro-image img{
     width: 100%;
 }
 
-.project-intro p{
+.project-content p {
     font-family: 'Lato', 'Josefin Sans', sans-serif;
     font-size: 11pt;
     font-weight: 300;
-    text-align: center;
-}
-
-project-intro-specs p{
-    text-align: right;
 }
 
 /*ART SECTION*/
 
 .project-art{
     flex-wrap: wrap;
-    padding: 3rem;
+    padding: 1rem 5rem;
 }
 
 .half-block{
@@ -199,11 +173,13 @@ project-intro-specs p{
     padding: 1rem;
 }
 
-.gallery-text li{
+.project-content li{
     font-family: 'Lato', 'Josefin Sans', sans-serif;
-    font-size: 11pt;
+    font-size: 14pt;
     font-weight: 300;
     text-align: left;
+    padding-top: 2px;
+    padding-bottom: 4px;
 }
 
 .project-art-gallery-text{
@@ -211,7 +187,7 @@ project-intro-specs p{
 }
 
 .project-art-header h2{
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .project-art img {
@@ -219,13 +195,105 @@ project-intro-specs p{
 }
 
 .project-art img:hover{
-    transform: scale(1.03);
-    transition: 0.2s ease-in;
-    cursor: pointer;
+    /*maybe put caption stuff here?*/
 }
 
+/*PRODUCTION SECTION*/
+
+.project-production{
+    flex-wrap: wrap;
+}
+
+.column-block{
+    flex-direction: column;
+}
+
+.project-production{
+    padding: 1rem 5rem;
+}
+
+.production-desc{
+}
+
+.production-tools{
+    flex-wrap: wrap;
+}
+
+.production-tools img{
+    width: 30%;
+    padding: 1rem;
+}
+
+.tool-desc{
+    width: 70%;
+    padding: 1rem;
+}
+
+.production-layers-desc{
+    height: 5rem;
+    background-color:blue;
+}
+
+.production-layers-diagram{
+    height: 5rem;
+    background-color:darkgoldenrod;
+}
+
+/*RESPONSIVE STUFF*/
+
 @media screen and (max-width: 760px) {
+    .project-intro-image {
+        width: 100%;
+    }
+    
+    .project-intro-buttons{
+        width: 100%;
+    }
+    
+    .project-intro-desc{
+        width: 100%;
+        padding: 5px 0px;
+    }
+    
+    .project-intro-specs{
+        width: 100%;
+        padding: 1.5rem 0px;
+    }
+
+    .project-intro-specs p{
+        text-align: left;
+    }
+    
+    .disc_button {
+        padding-top: .5rem;
+        padding-bottom: .5px;
+    }
+    
+    .project-art{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .project-production{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
     .half-block{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .production-tools{
+        justify-content: center;
+    }
+
+    .production-tools img{
+    width: 50%;
+    }
+
+    .tool-desc{
         width: 100%;
     }
 }
