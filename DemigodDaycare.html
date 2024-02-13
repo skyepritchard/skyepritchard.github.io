@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/css/gallery.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -55,178 +55,127 @@
             </span>
         </nav>
     </header>
-    <main class="flex">
-        <div class ="project_intro flex">
-            <section class="flex project_intro_center">
-                <h1>Demigod Daycare</h1>
-                <p class="subtitle">Mobile Autobattler</p>
-
-                <iframe width="40vw" height="285vw" src="https://www.youtube.com/embed/pnCwOAoY4mc"
+    <main class="flex project-content">
+      <div class = "flex project-title">
+        <h1>Demigod Daycare</h1>
+        <p class="subtitle">Mobile Autobattler</p>
+      </div>
+      <div class = "flex project-intro">
+        <div class = "project-intro-image">
+          <iframe width="40vw" height="285vw" src="https://www.youtube.com/embed/pnCwOAoY4mc"
                     title="Demigod Daycare Trailer" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen>
-                </iframe>
-
-                <span class="flex">
-                    <div>
-                        <p>Platform: Mobile (Apple + Android)</p>
-                        <p>Role: Producer and 2D artist</p>
-                        <p>Team Size: 6</p>
-                        <p>Publisher: MassDigi</p>
-                    </div>
-                    <div>
-                        <p>
-                            Welcome to the first place the children of the gods learn to be legendary heroes... daycare!
-                            Face other teams and prove your daycare to be the mightiest in all of Olympus.
-                        </p>
-                    </div>
-                </span>
-            </section>
+          </iframe>
         </div>
-        <div class ="project_buttons flex">
-            <section class = flex>
-                <h2>Contributions</h2>
-                <span class="flex disc_buttons">
-                    <div class="flex disc_button">
-                        <button class="button-50" role="button">Art Contributions</button>
-                    </div>
-                    <div class="flex disc_button">
-                        <button class="button-50" role="button">Production Contributions</button>
-                    </div>
-                </span>
-            </section>
+        <div class = "flex project-intro-buttons">
+          <div class="disc_button">
+              <a href = "#ob-art"><button class="button-50" role="button">Art Contributions</button></a>
+          </div>
+          <div class="disc_button">
+              <a href="#ob-production"><button class="button-50" role="button">Production Contributions</button></a>
+          </div>
         </div>
-        <div class = "art_contributions flex">
-            <section class = "flex art_contributions_text">
-                <H2>Art Contributions</H2>
-                <ul>
-                    <li>Produced background, character and user interface artwork along with one other artist.</li>
-                    <li>Created and managed the art pipeline.</li>
-                    <li>Established a strong art style taking inspiration from ancient Greece and modern animations.</li>
-                    <li>Took art from concept artist and rendered it to create polished pieces.</li>
-                    <li>Made small animations to add liveliness to gameplay.</li>
-                </ul>
-            </section>
-            <div class = "lightbox">
-                <div class = "gallery_thumbs">
-                    <div class="row">
-                        <div class="column">
-                          <img src="images\ddimages\arena1.png" onclick="openModal();currentSlide(1)" class="hover-shadow thumb">
-                          </div>
-                        <div class="column">
-                            <img src="images\ddimages\arena2.png" onclick="openModal();currentSlide(2)" class="hover-shadow thumb">
-                        </div>
-                    </div>
-                    <div class="row">
-                          <div class="column">
-                            <img src="images\ddimages\daycare1.png" onclick="openModal();currentSlide(3)" class="hover-shadow thumb">
-                          </div>
-                          <div class="column">
-                            <img src="images\ddimages\daycare2.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow thumb">
-                          </div>
-                    </div>
-                    <div class="row">
-                        <div class="column">
-                          <img src="images\ddimages\splash1.png" onclick="openModal();currentSlide(5)" class="hover-shadow thumb">
-                        </div>
-                        <div class="column">
-                          <img src="images\ddimages\splash2.png" onclick="openModal();currentSlide(6)" class="hover-shadow thumb">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="column">
-                          <img src="images\ddimages\pause2.png" onclick="openModal();currentSlide(5)" class="hover-shadow thumb">
-                        </div>
-                        <div class="column">
-                          <img src="images\ddimages\pause3.png" onclick="openModal();currentSlide(6)" class="hover-shadow thumb">
-                        </div>
-                    </div>
-                </div>
-                
-                <div id="myModal" class="modal">
-                    <span class="close cursor" onclick="closeModal()">&times;</span>
-                    <div class="modal-content">
-                  
-                      <div class="mySlides">
-                        <div class="numbertext">1 / 8</div>
-                        <img src="images\ddimages\arena1.png" style="width:100%">
-                      </div>
-                  
-                      <div class="mySlides">
-                        <div class="numbertext">2 / 8</div>
-                        <img src="images\ddimages\arena2.png" style="width:100%">
-                      </div>
-                  
-                      <div class="mySlides">
-                        <div class="numbertext">3 / 8</div>
-                        <img src="images\ddimages\daycare1.png" style="width:100%">
-                      </div>
-                  
-                      <div class="mySlides">
-                        <div class="numbertext">4 / 8</div>
-                        <img src="images\ddimages\daycare2.jpg" style="width:100%">
-                      </div>
-
-                      <div class="mySlides">
-                        <div class="numbertext">5 / 8</div>
-                        <img src="images\ddimages\splash1.png" style="width:100%">
-                      </div>
-
-                      <div class="mySlides">
-                        <div class="numbertext">6 / 8</div>
-                        <img src="images\ddimages\splash2.png" style="width:100%">
-                      </div>
-
-                      <div class="mySlides">
-                        <div class="numbertext">7 / 8</div>
-                        <img src="images\ddimages\pause2.png" style="width:100%">
-                      </div>
-
-                      <div class="mySlides">
-                        <div class="numbertext">8 / 8</div>
-                        <img src="images\ddimages\pause3.png" style="width:100%">
-                      </div>
-                  
-                      <!-- Next/previous controls -->
-                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                  
-                      <!-- Caption text -->
-                      <div class="caption-container">
-                        <p id="caption"></p>
-                      </div>
-                  
-                      <!-- Thumbnail image controls -->
-                      <div class="lightbox_nav">
-                        <div class="thumb_nav">
-                            <img class="demo" src="images\ddimages\arena1.png" onclick="currentSlide(1)" alt="Arena: Concept Image">
-                          </div>
-                          <div class="thumb_nav">
-                            <img class="demo" src="images\ddimages\arena2.png" onclick="currentSlide(2)" alt="Arena: Final Artwork">
-                          </div>
-                          <div class="thumb_nav">
-                            <img class="demo" src="images\ddimages\daycare1.png" onclick="currentSlide(3)" alt="Daycare: My painting with sketch-over by Mim Dow">
-                          </div>
-                          <div class="thumb_nav">
-                            <img class="demo" src="images\ddimages\daycare2.jpg" onclick="currentSlide(4)" alt="Daycare: Final Artwork">
-                          </div>
-                          <div class="thumb_nav">
-                            <img class="demo" src="images\ddimages\splash1.png" onclick="currentSlide(5)" alt="Splash: Concept Image by Mim Dow">
-                          </div>
-                          <div class="tumb_nav">
-                            <img class="demo" src="images\ddimages\splash2.png" onclick="currentSlide(6)" alt="Splash: Final Painting">
-                          </div>
-                          <div class="thumb_nav">
-                            <img class="demo" src="images\ddimages\pause2.png" onclick="currentSlide(7)" alt="Pause Screen: Sketch by Mim Dow">
-                          </div>
-                          <div class="thumb-nav">
-                            <img class="demo" src="images\ddimages\pause3.png" onclick="currentSlide(8)" alt="Pause Screen: Final Artwork">
-                          </div>
-                      </div>
-                    </div>
-                  </div>
+        <div class = "project-intro-desc">
+          <p>
+            Welcome to the first place the children of the gods learn to be legendary heroes... daycare! Face other teams and prove your daycare to be the mightiest in all of Olympus.
+          </p>
+        </div>
+        <div class = "project-intro-specs">
+          <p><b>Platform:</b> Mobile (Apple + Android)</p>
+          <p><b>Role:</b> Producer and 2D Artist</p>
+          <p><b>Team Size:</b> 6</p>
+          <p><b>Publisher:</b> MassDigi</p>
+          <p><b>Released:</b> August 2022</p>
+        </div>
+      </div>
+      <div class = "flex project-art" id = "ob-art">
+        <div class = "project-art-header full-block">
+          <H2>Art Contributions</H2>
+        </div>
+        <div class = "half-block gallery-text">
+            <ul>
+                <li>Produced background, character and user interface artwork along with one other artist.</li>
+                <li>Established a strong art style taking inspiration from ancient Greece and modern animations.</li>
+                <li>Created and managed the art pipeline.</li>
+                <li>Took art from concept artist and rendered it to create polished pieces.</li>
+                <li>Made small animations to add liveliness to gameplay.</li>
+            </ul>
+        </div>
+        <div class = "half-block">
+          <img src="images\ddimages\daycare_full_3.png">
+        </div>
+        <div class = "half-block">
+          <img src="images\ddimages\arena1.png">
+        </div>
+        <div class = "half-block">
+          <img src="images\ddimages\arena2.png">
+        </div>
+        <div class = "half-block">
+          <img src="images\ddimages\daycare1.png">
+        </div>
+        <div class = "half-block">
+          <img src="images\ddimages\daycare2.jpg">
+        </div>
+        <div class = "half-block">
+          <img src="images\ddimages\pause2.png">
+        </div>
+        <div class = "half-block">
+          <img src="images\ddimages\pause3.png">
+        </div>
+        <div class = "half-block">
+          <img src="images\ddimages\splash1.png">
+        </div>
+        <div class = "half-block">
+          <img src="images\ddimages\splash2.png">
+        </div>
+      </div>
+      <div class = "flex project-production" id = "ob-production">
+        <div class = "full-block">
+          <h2>
+            Production Contributions
+          </h2>
+        </div>
+        <div class = "half-block column-block">
+          <div class = "production-desc">
+            <ul>
+              <li>Directed production of mobile game over 12 weeks.</li>
+              <li>Used modified sprints and a kanban board to organize progress.</li>
+              <li>Managed  the art pipeline and creation of art assets.</li>
+              <li>Hosted daily scrums and organized the backlog to support fluctuating scope.</li>
+              <li>Onboarded new workers to a pre-existing project after release.</li>
+              <li>Created a layered scope plan to allow room for scope adjustments.</li>
+            </ul>
+          </div>
+          <div class = "production-tools-container">
+          </div>
+        </div>
+        <div class = "half-block column-block">
+          <div class = "production-tools-container">
+            <div class = "flex production-tools">
+              <img src="images\obimages\scrum01.svg">
+              <div class = "tool-desc">
+                <h5>Agile Scrum</h5>
+                <p>We used two-week-long sprints and daily standups to organize production, taking inspiration from Agile Scrum.</p>
+              </div>
             </div>
+            <div class = "flex production-tools">
+              <img src="images\ddimages\miro_2.png">
+              <div class = "tool-desc">
+                <h5>Miro</h5>
+                <p>Miro was used during online development to visualize ideas, facilitate communication between engineers and artists, and to organize tasks when the in-person kanban board was inaccessible.</p>
+              </div>
+            </div>
+            <div class = "flex production-tools">
+              <img src="images\ddimages\plastic_1.png">
+              <div class = "tool-desc">
+                <h5>Plastic SCM</h5>
+                <p>The team used Plastic SCM as our source control.</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
     <footer>
         <p>© Skye Pritchard</p>

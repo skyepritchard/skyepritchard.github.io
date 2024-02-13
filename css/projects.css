@@ -82,8 +82,8 @@ main {
     }
 
     iframe {
-        width: 40vw;
-        margin: 0 12vw;
+        width: 100%;
+        /*margin: 0 12vw;*/
         display: flex;
         justify-content: center;
     }
@@ -221,6 +221,7 @@ main {
 
 .production-tools img{
     width: 30%;
+    height: 30%;
     padding: 1rem;
 }
 
@@ -291,6 +292,7 @@ main {
 
     .production-tools img{
     width: 50%;
+    height: 50%;
     }
 
     .tool-desc{
