@@ -55,6 +55,11 @@
         url('/images/banner_01.png');
 }
 
+.wpi_events__navbar {
+    background-image: var(--gradient),
+        url('/images/weimages/pax_banner.jpg');
+}
+
 /*bingbong*/
 
 .operation_breadcrumbs__navbar {
@@ -156,6 +161,10 @@ main {
     font-weight: 300;
 }
 
+.project-content img {
+    width: 100%;
+}
+
 /*ART SECTION*/
 
 .project-art{
@@ -186,16 +195,12 @@ main {
     padding: 2rem;
 }
 
-.project-art-header h2{
+.project-content h2{
     padding: 1rem;
 }
 
 .project-art img {
     width: 100%;
-}
-
-.project-art img:hover{
-    /*maybe put caption stuff here?*/
 }
 
 /*PRODUCTION SECTION*/
@@ -240,6 +245,36 @@ main {
     background-color:darkgoldenrod;
 }
 
+/*WPI events*/
+
+.joyart-container{
+    flex-wrap: wrap;
+    padding: 1rem 5rem;
+}
+
+.pax-container{
+    flex-wrap: wrap;
+    padding: 1rem 5rem;
+}
+
+.internal-events-container{
+    flex-wrap: wrap;
+    padding: 1rem 5rem;
+}
+
+.block-desc{
+    padding: 4rem 2rem;
+}
+
+.block-desc p{
+    font-family: 'Lato', 'Josefin Sans', sans-serif;
+    font-size: 13pt;
+    font-weight: 300;
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
 /*RESPONSIVE STUFF*/
 
 @media screen and (max-width: 760px) {
@@ -282,6 +317,18 @@ main {
     
     .half-block{
         width: 100%;
+    }
+
+    .block-desc{
+        padding: 0rem;
+    }
+
+    .joyart-container, .pax-container, .internal-events-container{
+        padding: 2rem;
+    }
+
+    main h1{
+        padding-top: 2rem;
     }
 }
 
