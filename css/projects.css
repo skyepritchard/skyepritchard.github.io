@@ -276,6 +276,10 @@ main {
     padding-bottom: 4px;
 }
 
+.project-intro-specs-1{
+    padding-top: 6rem;
+}
+
 /*RESPONSIVE STUFF*/
 
 @media screen and (max-width: 760px) {
