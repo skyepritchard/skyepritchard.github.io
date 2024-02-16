@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/projects.css">
     <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/slideshow.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
@@ -68,77 +69,68 @@
         <p class="subtitle">In-Progress 2D Management Game</p>
       </div>
       <div class = "flex project-intro">
+        <!--slideshow of images:-->
         <div class = "project-intro-image">
-          <img src="images\obimages\kitchen.png">
-        </div>
-        <div class = "flex project-intro-buttons">
-          <div class="disc_button">
-              <a href = "#ob-art"><button class="button-50" role="button">Art Contributions</button></a>
+          <div class="center">
+            <div class="carousel-wrapper">
+              <!-- abstract radio buttons for slides -->
+              <input id="slide1" type="radio" name="controls" checked="checked" />
+              <input id="slide2" type="radio" name="controls" />
+              <input id="slide3" type="radio" name="controls" />
+              <input id="slide4" type="radio" name="controls" />
+              <input id="slide5" type="radio" name="controls" />
+          
+              <!-- navigation dots -->
+              <label for="slide1" class="nav-dot"></label>
+              <label for="slide2" class="nav-dot"></label>
+              <label for="slide3" class="nav-dot"></label>
+              <label for="slide4" class="nav-dot"></label>
+              <label for="slide5" class="nav-dot"></label>
+          
+              <!-- arrows -->
+              <label for="slide1" class="left-arrow"> < </label>
+              <label for="slide2" class="left-arrow"> < </label>
+              <label for="slide3" class="left-arrow"> < </label>
+              <label for="slide4" class="left-arrow"> < </label>
+              <label for="slide5" class="left-arrow"> < </label>
+          
+              <label for="slide1" class="right-arrow"> > </label>
+              <label for="slide2" class="right-arrow"> > </label>
+              <label for="slide3" class="right-arrow"> > </label>
+              <label for="slide4" class="right-arrow"> > </label>
+              <label for="slide5" class="right-arrow"> > </label>
+          
+              <div class="carousel">
+                <ul>
+                  <li>
+                    <img src="images\obimages\ingame_1.png" />
+                  </li>
+                  <li>
+                    <img src="images\obimages\ingame_4.png" alt="">
+                  </li>
+                  <li>
+                    <img src="images\obimages\ingame_2.png" />
+                  </li>
+                  <li>
+                    <img src="images\obimages\ingame_6.png">
+                  </li>
+                  <li>
+                    <img src="images\obimages\ingame_5.png" alt="">
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="disc_button">
-              <a href="#ob-production"><button class="button-50" role="button">Production Contributions</button></a>
-          </div>
         </div>
-        <div class = "project-intro-desc">
-          <p>
-            Play as Robin, a bird returning to their charming childhood town to take over their grandfather's BnB. Make breakfasts, meet migrating birds passing through, and get to know the community you left behind.
-          </p>
+        <div class = "project-intro-desc thinner">
+          <p>Play as Robin, a bird returning to their charming childhood town to take over their grandfather's BnB. Make breakfasts, meet migrating birds passing through, and get to know the community you left behind.</p>
+          <p>This game is currently in development by six people, with the work of three additional contractors. It has been in full development since August of 2023.</p>
         </div>
         <div class = "project-intro-specs">
           <p><b>Platform:</b> PC (Mac + Windows)</p>
           <p><b>Role:</b> Producer and Lead Artist</p>
-          <p><b>Team Size:</b> 9</p>
+          <p><b>Team Size:</b> 6</p>
           <p><b>Release:</b> Demo coming Spring 2024</p>
-        </div>
-      </div>
-      <div class = "flex project-art" id = "ob-art">
-        <div class = "project-art-header full-block">
-          <H2>Art Contributions</H2>
-        </div>
-        <div class = "half-block gallery-text">
-            <ul>
-                <li>Lead the creation of an art style taking inspiration from influential American artists.</li>
-                <li>Created and managed the art pipeline.</li>
-                <li>Produced 2D character sprites to be rigged and animated by the team's animators.</li>
-                <li>Oversaw quality control of all artwork.</li>
-                <li>Assigned and prioritized Art tasks based on the needs and abilities of the team.</li>
-            </ul>
-        </div>
-        <div class = "half-block">
-          <img src="images\obimages\ob_robinportrait.png">
-          <div class = "caption">
-            <p>The dialogue portrait of the player character, Robin.</p>
-          </div>
-        </div>
-        <div class = "full-block">
-          <img src="images\obimages\ob_birdlineup1.png">
-          <div class = "caption">
-            <p>A few of the character sprites I have made for the game.</p>
-          </div>
-        </div>
-        <div class = "half-block">
-          <img src="images\obimages\ob_regparts1.png">
-          <div class = "caption">
-            <p>One of the sprites, Reginald, broken up into its parts for the rig.</p>
-          </div>
-        </div>
-        <div class = "half-block">
-          <img src="images\obimages\reginaldWalk.gif">
-          <div class = "caption">
-            <p>Reginald in action! Animation by Camille Prats and Kerri Thornton.</p>
-          </div>
-        </div>
-        <div class = "half-block">
-          <img src="images\obimages\ob_roomext1.png">
-          <div class = "caption">
-            <p>The exterior of one of the B&B nest rooms.</p>
-          </div>
-        </div>
-        <div class = "half-block">
-          <img src="images\obimages\ob_roomint1.png">
-          <div class = "caption">
-            <p>The interior of one of the B&B nest rooms.</p>
-          </div>
         </div>
       </div>
       <div class = "flex project-production" id = "ob-production">
