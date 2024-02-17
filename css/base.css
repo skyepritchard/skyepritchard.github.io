@@ -12,6 +12,10 @@ nav {
     z-index: 999;
 }
 
+.aboutme-nav{
+    height: 10rem;
+}
+
 body{
     width: 100vw;  
     height: 100vh;

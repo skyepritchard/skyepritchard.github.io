@@ -280,7 +280,55 @@ main {
     padding-top: 6rem;
 }
 
+/*about me page*/
+
+.about-me-image img{
+    width: 70%;
+    border-radius: 50%;
+}
+
+.about-me-image{
+    text-align:center;
+    text-indent: 0rem;
+}
+
+.about-me-content{
+    flex-wrap:wrap;
+    padding: 6rem;
+    padding-top:3rem;
+    text-indent:2rem;
+    p{
+        font-family: 'Lato', 'Josefin Sans', sans-serif;
+        font-size: 14pt;
+        font-weight: 300;
+        text-align: left;
+        padding-top: 2px;
+        padding-bottom: 4px;
+    }
+}
+
+.about-me-text {
+    padding: 2rem;
+    padding-top: 6rem;
+}
+
 /*RESPONSIVE STUFF*/
+
+@media screen and (max-width: 1024px) {
+    .about-me-text {
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about-me-text {
+        width: 100%;
+    }
+
+    .about-me-image {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 760px) {
     .project-intro-image {
@@ -324,6 +372,10 @@ main {
         width: 100%;
     }
 
+    .me-image img{
+        width: 100%;
+    }
+
     .block-desc{
         padding: 0rem;
     }
@@ -334,6 +386,14 @@ main {
 
     main h1{
         padding-top: 2rem;
+    }
+
+    .about-me-content{
+        padding: 2rem;
+    }
+
+    .about-me-text{
+        padding: 1rem;
     }
 }
 
@@ -351,3 +411,4 @@ main {
         width: 100%;
     }
 }
+
