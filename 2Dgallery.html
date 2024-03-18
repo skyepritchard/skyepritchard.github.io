@@ -5,23 +5,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Skye Pritchard | Artwork</title>
-    <link rel="stylesheet" href="/css/base.css">
+    <title>Skye Pritchard</title>
 
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/projects.css">
+    <link rel="stylesheet" href="/css/gallery.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Navbar Section -->
     <header>
-        <nav>
+        <nav class = "demigod_daycare__navbar">
             <span class="navbar__container">
                 <div class="navbar__title">
                     <a href="/" id="navbar__logo">
-                        <h1>Skye Pritchard</h1>
+                        <h2>Skye Pritchard</h2>
                     </a>
                     <p>Producer and Digital Artist</p>
                 </div>
@@ -37,13 +37,13 @@
                         </a>
                     </li>
                     <li class ="navbar__item">
-                        <a href="production" class="navbar__links">
-                            Production
-                        </a>
+                      <a href="production" class="navbar__links">
+                          Production
+                      </a>
                     </li>
                     <li class="navbar__item">
-                        <a href="Artwork" class="navbar__links">
-                            <u>Artwork</u>
+                        <a href="artwork" class="navbar__links">
+                            Artwork
                         </a>
                     </li>
                     <li class="navbar__item">
@@ -51,36 +51,24 @@
                             About Me
                         </a>
                     </li>
+                    <!--<li class="navbar__item">
+                        <a href="Resume" class="navbar__links">
+                            Resume
+                        </a>
+                    </li>-->
                 </ul>
             </span>
         </nav>
     </header>
-
-    <!-- Services Section -->
-    <main>
-        <a href="/AnimationReel" class="services__card" id="animation_reel">
-            <p>2021-2023</p>
-            <h4>ANIMATION REEL</h4>
-        </a>
-        <a href="OperationBreadcrumbs" class="services__card" id="bird_breakfast">
-            <p>2D Management Game</p>
-            <h4>OPERATION BREADCRUMBS</h4>
-        </a>
-        <a href="2Dgallery" class="services__card" id="critter_city">
-            <h4>2D GALLERY</h4>
-        </a>
-        <a href="GottaGobot" class="services__card " id="lil_robo">
-            <p>3D Platformer</p>
-            <h4>GOTTA GO—BOT</h4>
-        </a>
+    <main class="flex project-content">
+      <div class = "flex project-title">
+        <h1>2D Artwork</h1>
+        <p class="subtitle"></p>
+      </div>
     </main>
-
-    <!-- Footer Section -->
     <footer>
-        <p class="website__rights">© Skye Pritchard</p>
+        <p>© Skye Pritchard</p>
     </footer>
-
-    <script src="app.js"></script>
 </body>
 
 </html>
