@@ -8,7 +8,7 @@ User-agent: ia_archiver
 Allow: /
 
 User-Agent: ImagesiftBot
-Disallow
+Disallow /
 
 User-agent: CCBot
 Disallow: /
