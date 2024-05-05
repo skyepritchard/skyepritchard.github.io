@@ -34,7 +34,7 @@ main {
 
 #lil_robo {
     background-image: var(--gradient),
-        url('/images/robo_icon_01.png');
+        url('/images/ggimages/brambles.png');
 }
 
 #bird_breakfast {
