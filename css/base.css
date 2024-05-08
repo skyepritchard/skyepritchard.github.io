@@ -313,3 +313,12 @@ li {
 ul {
     margin: 2rem;
 }
+
+.add-padding-top{
+    padding-top:2rem;
+}
+
+.add-padding-sides{
+    padding-left:2rem;
+    padding-right:2rem;
+}

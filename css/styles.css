@@ -39,7 +39,7 @@ main {
 
 #bird_breakfast {
     background-image: var(--gradient),
-        url('/images/obimages/butchershop.png');
+        url('/images/obimages/ob_image_square.png');
 }
 
 #wpi_events {

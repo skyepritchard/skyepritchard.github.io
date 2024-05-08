@@ -63,32 +63,82 @@
 
     <!-- Project Section -->
     <main class="flex project-content">
-      <div class = "flex project-title">
-        <h1>Operation Breadcrumbs</h1>
-        <p class="subtitle">In-Progress 2D Management Game</p>
-      </div>
-      <div class = "flex project-intro">
-        <div class = "project-intro-image">
-          <img src="images\obimages\kitchen.png">
+      <div class = "flex project-intro add-padding-top">
+        <div class = "flex project-title half-block">
+          <a href="https://store.steampowered.com/app/2844620/Bed_and_BEAKfast/"><img src="images\obimages\logo.png" width="30%"></a>
+          <p class="subtitle">2D Management and Narrative Game Demo</p>
         </div>
-        <div class = "flex project-intro-buttons">
+        <div class = "project-intro-image">
+          <iframe src="https://www.youtube.com/embed/A1oioVqJcY4?si=LKMw8WPa3o5AloqS"
+                    title="Bed and BEAKfast Trailer" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+          </iframe>
+        </div>
+        <!--<div class = "flex project-intro-buttons">
           <div class="disc_button">
               <a href = "#ob-art"><button class="button-50" role="button">Art Contributions</button></a>
           </div>
           <div class="disc_button">
               <a href="#ob-production"><button class="button-50" role="button">Production Contributions</button></a>
           </div>
-        </div>
+        </div>-->
         <div class = "project-intro-desc">
-          <p>
-            Play as Robin, a bird returning to their charming childhood town to take over their grandfather's BnB. Make breakfasts, meet migrating birds passing through, and get to know the community you left behind.
-          </p>
+          <p>Bed and BEAKfast is a management, cooking, and narrative game. Play as Robin and return to your hometown to regrow the bed and breakfast left to you by your late grandfather. Cook meals, connect with the community, and forge lasting relationships!</p>
+          <p>The demo is free on <a href="https://store.steampowered.com/app/2844620/Bed_and_BEAKfast/">Steam</a> and on <a href="https://bedandbeakfast.itch.io/bed-and-beakfast">Itch.io</a>!</p>
         </div>
         <div class = "project-intro-specs">
           <p><b>Platform:</b> PC (Mac + Windows)</p>
           <p><b>Role:</b> Producer and Lead Artist</p>
-          <p><b>Team Size:</b> 9</p>
-          <p><b>Release:</b> Demo coming Spring 2024</p>
+          <p><b>Team Size:</b> 6</p>
+          <p><b>Development Time:</b> 10 months</p>
+        </div>
+      </div>
+      <div class = "flex project-production" id = "ob-production">
+        <div class = "full-block">
+          <h2>
+            Production Contributions
+          </h2>
+        </div>
+        <div class = "half-block column-block">
+          <div class = "production-desc">
+            <ul>
+              <li>Organized and facilitated Scrum meetings including sprint planning, reviews, retrospectives, and stand-ups.</li>
+              <li>Adjusted processes to better fit the team's needs.</li>
+              <li>Assisted communication across disciplines within team.</li>
+              <li>Evaluated scope at each checkpoint, and adjusted backlog to fit long-term goals.</li>
+              <li>Worked with designers and engineers to prioritize features according to the project's needs.</li>
+              <li>Created a layered scope plan based on prioritization to iterate upon our core loop and to keep each subteam working towards the same reachable goals.</li>
+              <li>Evaluated existing tools for tracking tasks, adjusting them or creating new tools and methods when needed.</li>
+            </ul>
+          </div>
+          <div class = "production-tools-container">
+          </div>
+        </div>
+        <div class = "half-block column-block">
+          <div class = "production-tools-container">
+            <div class = "flex production-tools">
+              <img src="images\obimages\scrum01.svg">
+              <div class = "tool-desc">
+                <h5>Agile Scrum</h5>
+                <p>We employed Agile Scrum to organize development. The team found that we functioned best with two-week-long sprints.</p>
+              </div>
+            </div>
+            <div class = "flex production-tools">
+              <img src="images\obimages\jira-1.svg">
+              <div class = "tool-desc">
+                <h5>Jira</h5>
+                <p>We used Atlassian's Jira to create, organize, and point our backlog, plan for each sprint, and to track our velocity.</p>
+              </div>
+            </div>
+            <div class = "flex production-tools">
+              <img src="images\obimages\trello.svg">
+              <div class = "tool-desc">
+                <h5>Trello</h5>
+                <p>Trello was used to make a more detailed kanban board for the artists to better fit their pipeline.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class = "flex project-art" id = "ob-art">
@@ -138,52 +188,6 @@
           <img src="images\obimages\ob_roomint1.png">
           <div class = "caption">
             <p>The interior of one of the B&B nest rooms.</p>
-          </div>
-        </div>
-      </div>
-      <div class = "flex project-production" id = "ob-production">
-        <div class = "full-block">
-          <h2>
-            Production Contributions
-          </h2>
-        </div>
-        <div class = "half-block column-block">
-          <div class = "production-desc">
-            <ul>
-              <li>Organized and facilitated Scrum meetings including sprint planning, reviews, retrospectives, and stand-ups.</li>
-              <li>Adjusted processes to better fit the team's needs.</li>
-              <li>Assisted communication across disciplines within team.</li>
-              <li>Evaluated scope at each checkpoint, and adjusted backlog to fit long-term goals.</li>
-              <li>Worked with designers and engineers to prioritize features according to the project's needs.</li>
-              <li>Created a layered scope plan based on prioritization to iterate upon our core loop and to keep each subteam working towards the same reachable goals.</li>
-            </ul>
-          </div>
-          <div class = "production-tools-container">
-          </div>
-        </div>
-        <div class = "half-block column-block">
-          <div class = "production-tools-container">
-            <div class = "flex production-tools">
-              <img src="images\obimages\scrum01.svg">
-              <div class = "tool-desc">
-                <h5>Agile Scrum</h5>
-                <p>We employed Agile Scrum to organize development. The team found that we functioned best with two-week-long sprints.</p>
-              </div>
-            </div>
-            <div class = "flex production-tools">
-              <img src="images\obimages\jira-1.svg">
-              <div class = "tool-desc">
-                <h5>Jira</h5>
-                <p>We used Atlassian's Jira to create, organize, and point our backlog, plan for each sprint, and to track our velocity.</p>
-              </div>
-            </div>
-            <div class = "flex production-tools">
-              <img src="images\obimages\trello.svg">
-              <div class = "tool-desc">
-                <h5>Trello</h5>
-                <p>Trello was used to make a more detailed kanban board for the artists to better fit their pipeline.</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
