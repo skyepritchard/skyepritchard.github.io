@@ -64,7 +64,7 @@
 
 .operation_breadcrumbs__navbar {
     background-image: var(--gradient),
-        url('/images/obimages/tree.png');
+        url('/images/obimages/libraryHeroMirror.png');
 }
 
 main {
@@ -412,3 +412,16 @@ main {
     }
 }
 
+.project-title img {
+    align-self: center;
+    width:100%;
+}
+
+.add-padding-top {
+    padding-top:2rem;
+}
+
+.add-padding-sides {
+    padding-left:2rem;
+    padding-right:2rem;
+}
