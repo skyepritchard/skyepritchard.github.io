@@ -2,7 +2,7 @@
 
 nav {
     background-image: var(--gradient),
-        url('/images/banner_02.PNG');
+        url('/images/banner_01.PNG');
     background-size: cover;
     height: 15rem;
     display: flex;

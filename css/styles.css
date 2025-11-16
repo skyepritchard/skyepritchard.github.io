@@ -47,6 +47,11 @@ main {
         url('/adragonfortheking/adftk_button.png');
 }
 
+#countcaf {
+    background-image: var(--gradient),
+        url('/counterfeitcafe/countcaf_button.png');
+}
+
 #wpi_events {
     background-image: var(--gradient),
         url('/images/joyart_photo.jpg');
