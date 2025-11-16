@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skye Pritchard</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/projects.css">
+    <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/slideshow.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class = "adftk__navbar">
+            <span class="navbar__container">
+                <div class="navbar__title">
+                    <a href="/" id="navbar__logo">
+                        <h2>Skye Pritchard</h2>
+                    </a>
+                    <p>Producer and Digital Artist</p>
+                </div>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__links">
+                            Projects
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="../about" class="navbar__links">
+                            About Me
+                        </a>
+                    </li>
+                </ul>
+            </span>
+        </nav>
+    </header>
+    <main class="flex project-content">
+      <div class = "flex project-title">
+        <h1>A Dragon for the King</h1>
+        <p class="subtitle">Game Jam Stat Raiser</p>
+      </div>
+      <div class = "flex project-intro">
+        <div class = "project-intro-image">
+            <div class="center">
+              <div class="carousel-wrapper">
+                <!-- abstract radio buttons for slides -->
+                <input id="slide1" type="radio" name="controls" checked="checked" />
+                <input id="slide2" type="radio" name="controls" />
+                <input id="slide3" type="radio" name="controls" />
+                <input id="slide4" type="radio" name="controls" />
+                <input id="slide5" type="radio" name="controls" />
+            
+                <!-- navigation dots -->
+                <label for="slide1" class="nav-dot"></label>
+                <label for="slide2" class="nav-dot"></label>
+                <label for="slide3" class="nav-dot"></label>
+                <label for="slide4" class="nav-dot"></label>
+                <label for="slide5" class="nav-dot"></label>
+            
+                <!-- arrows -->
+                <label for="slide1" class="left-arrow"> < </label>
+                <label for="slide2" class="left-arrow"> < </label>
+                <label for="slide3" class="left-arrow"> < </label>
+                <label for="slide4" class="left-arrow"> < </label>
+                <label for="slide5" class="left-arrow"> < </label>
+            
+                <label for="slide1" class="right-arrow"> > </label>
+                <label for="slide2" class="right-arrow"> > </label>
+                <label for="slide3" class="right-arrow"> > </label>
+                <label for="slide4" class="right-arrow"> > </label>
+                <label for="slide5" class="right-arrow"> > </label>
+            
+                <div class="carousel">
+                  <ul>
+                    <li>
+                      <img src="UI_Menu_BG.png" />
+                    </li>
+                    <li>
+                      <img src="ingame_01.jpg" alt="">
+                    </li>
+                    <li>
+                      <img src="ingame_02.jpg" />
+                    </li>
+                    <li>
+                      <img src="ingame_03.jpg">
+                    </li>
+                    <li>
+                      <img src="ingame_04.jpg" alt="">
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        <div class = "project-intro-specs-1 project-intro-specs">
+            <p><b>Platform:</b> Mobile (Apple + Android)</p>
+            <p><b>Role:</b> Producer and 2D Artist</p>
+            <p><b>Team Size:</b> 6</p>
+            <p><b>Publisher:</b> MassDigi</p>
+            <p><b>Released:</b> August 2022</p>
+            </div>
+        </div>
+        <div class = "project-intro-desc">
+          <p>
+            Welcome to the first place the children of the gods learn to be legendary heroes... daycare! Face other teams and prove your daycare to be the mightiest in all of Olympus.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <p>© Skye Pritchard</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

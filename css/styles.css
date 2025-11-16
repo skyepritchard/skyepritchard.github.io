@@ -42,6 +42,11 @@ main {
         url('/sincerelyrobin/images/ob_image_square.png');
 }
 
+#adftk {
+    background-image: var(--gradient),
+        url('/adragonfortheking/adftk_button.png');
+}
+
 #wpi_events {
     background-image: var(--gradient),
         url('/images/joyart_photo.jpg');

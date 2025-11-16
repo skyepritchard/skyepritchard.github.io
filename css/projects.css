@@ -60,6 +60,11 @@
         url('/images/weimages/pax_banner.jpg');
 }
 
+.adftk__navbar {
+    background-image: var(--gradient),
+        url('/adragonfortheking/adftk_banner.png');
+}
+
 /*bingbong*/
 
 .operation_breadcrumbs__navbar {
