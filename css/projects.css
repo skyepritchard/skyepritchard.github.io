@@ -60,11 +60,16 @@
         url('/images/weimages/pax_banner.jpg');
 }
 
+.adftk__navbar {
+    background-image: var(--gradient),
+        url('/adragonfortheking/adftk_banner.png');
+}
+
 /*bingbong*/
 
 .operation_breadcrumbs__navbar {
     background-image: var(--gradient),
-        url('/images/obimages/libraryHeroMirror.png');
+        url('/sincerelyrobin/images/libraryHeroMirror.png');
 }
 
 main {
@@ -141,11 +146,17 @@ main {
 .project-intro-desc{
     width: 50%;
     padding: 2rem 1rem;
+    text-align: center;
 }
 
 .project-intro-specs{
-    width: 50%;
+    width: 100%;
     padding: 2rem 4rem;
+}
+
+.project-specs-vertical{
+    flex-direction: column;
+    align-items: center;
 }
 
 .project-intro-specs p{
@@ -158,12 +169,16 @@ main {
 
 .project-content p {
     font-family: 'Lato', 'Josefin Sans', sans-serif;
-    font-size: 11pt;
+    font-size: 14pt;
     font-weight: 300;
 }
 
 .project-content img {
     width: 100%;
+}
+
+#logo_image {
+    max-width: 30%;
 }
 
 /*ART SECTION*/
@@ -180,6 +195,11 @@ main {
 
 .full-block{
     width: 100%;
+    padding: 1rem;
+}
+
+.centered-block{
+    width: 60%;
     padding: 1rem;
 }
 
@@ -216,6 +236,11 @@ main {
 
 .project-production{
     padding: 1rem 5rem;
+}
+
+.large_proj_desc{
+    padding: 1rem 5rem;
+    justify-content: center;
 }
 
 .production-desc{
@@ -277,7 +302,7 @@ main {
 }
 
 .project-intro-specs-1{
-    padding-top: 6rem;
+    padding-top: 4rem;
 }
 
 /*about me page*/

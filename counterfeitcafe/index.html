@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skye Pritchard</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/projects.css">
+    <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/slideshow.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class = "adftk__navbar">
+            <span class="navbar__container">
+                <div class="navbar__title">
+                    <a href="/" id="navbar__logo">
+                        <h2>Skye Pritchard</h2>
+                    </a>
+                    <p>Producer and Digital Artist</p>
+                </div>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/" class="navbar__links">
+                            Projects
+                        </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="../about" class="navbar__links">
+                            About Me
+                        </a>
+                    </li>
+                </ul>
+            </span>
+        </nav>
+    </header>
+    <main class="flex project-content">
+      <div class = "flex project-title">
+        <img id = "logo_image" src="logo.png" />
+        <p class="subtitle">(Game Jam) Management Game</p>
+      </div>
+      <div class = "flex project-intro">
+        <div class = "project-intro-image">
+            <div class="center, carousel-wrapper">
+              <!-- abstract radio buttons for slides -->
+              <input id="slide1" type="radio" name="controls" checked="checked" />
+              <input id="slide2" type="radio" name="controls" />
+              <input id="slide3" type="radio" name="controls" />
+              <input id="slide4" type="radio" name="controls" />
+              <input id="slide5" type="radio" name="controls" />
+          
+              <!-- navigation dots -->
+              <label for="slide1" class="nav-dot"></label>
+              <label for="slide2" class="nav-dot"></label>
+              <label for="slide3" class="nav-dot"></label>
+              <label for="slide4" class="nav-dot"></label>
+              <label for="slide5" class="nav-dot"></label>
+          
+              <!-- arrows -->
+              <label for="slide1" class="left-arrow"> < </label>
+              <label for="slide2" class="left-arrow"> < </label>
+              <label for="slide3" class="left-arrow"> < </label>
+              <label for="slide4" class="left-arrow"> < </label>
+              <label for="slide5" class="left-arrow"> < </label>
+          
+              <label for="slide1" class="right-arrow"> > </label>
+              <label for="slide2" class="right-arrow"> > </label>
+              <label for="slide3" class="right-arrow"> > </label>
+              <label for="slide4" class="right-arrow"> > </label>
+              <label for="slide5" class="right-arrow"> > </label>
+          
+              <div class="carousel">
+                <ul>
+                  <li>
+                    <img src="ingame_01.png" alt="">
+                  </li>
+                  <li>
+                    <img src="ingame_02.png" />
+                  </li>
+                  <li>
+                    <img src="ingame_03.png">
+                  </li>
+                  <li>
+                    <img src="ingame_04.png" alt="">
+                  </li>
+                  <li>
+                    <img src="ingame_00.png" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class = "flex project-specs-vertical half-block">
+            <div class = "project-intro-specs-1 project-intro-specs">
+              <p><b>Platform:</b> PC</p>
+              <p><b>Role:</b> Developer</p>
+              <p><b>Team Size:</b> 2</p>
+              <p><b>Development Time:</b> 9 Days</p>
+              <p><b>Released:</b> October 2025</p>
+            </div>
+            <div class="disc_button">
+              <a href = "https://mokadevs.itch.io/counterfeit-cafe"><button class="button-50" role="button">View on Itch</button></a>
+            </div>
+          </div>
+      </div>
+      <div class = "flex large_proj_desc full-block">
+        <div class = "project-intro-desc centered-block">
+          <p>2nd place in the October 20254 Godot Wild Jam, themed "Masks."</p>
+          <p>All you want to do is do your job of making illegal money illegally. Your coffee shop is just a front, a MASK, it's not supposed to actually get customers!</p>
+          <p>Toe the line in this management game by forging money and serving customers at the same time! Work hard enough to get good ratings and avoid suspicion, but don't forget to actually make your illegal money... lest you get fired!</p>
+          <p>Made in collaboration with <a href="https://www.youtube.com/@mokadevs">Moka Devs</a></p>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <p>© Skye Pritchard</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
