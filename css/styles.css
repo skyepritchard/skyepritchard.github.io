@@ -52,6 +52,11 @@ main {
         url('/counterfeitcafe/countcaf_button.png');
 }
 
+#liq {
+    background-image: var(--gradient),
+        url('/coloryoureveryday/liq_button.png');
+}
+
 #wpi_events {
     background-image: var(--gradient),
         url('/images/joyart_photo.jpg');
