@@ -51,6 +51,9 @@ body{
     padding-top: 2rem;
 }
 
+a {
+    color:aqua
+}
 
 .navbar__menu {
     display: flex;
