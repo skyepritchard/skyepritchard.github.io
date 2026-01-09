@@ -65,6 +65,21 @@
         url('/adragonfortheking/adftk_banner.png');
 }
 
+.liq__navbar {
+    background-image: var(--gradient),
+        url('/coloryoureveryday/liq_banner.png');
+}
+
+.liq__navbar {
+    background-image: var(--gradient),
+        url('/coloryoureveryday/liq_banner.png');
+}
+
+.countcaf__navbar {
+    background-image: var(--gradient),
+        url('/counterfeitcafe/cc_banner.png');
+}
+
 /*bingbong*/
 
 .operation_breadcrumbs__navbar {
